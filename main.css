@@ -1,0 +1,219 @@
+body{
+    background: #f9f9f9;
+}
+
+.navbar{
+    background-color: #4b556b;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+.main{
+    background: url(./img/perfil2-2.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main h3{
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #5e70f6;
+}
+
+.main h2{
+    font-size: 4.4rem;
+    color: #4b556b;
+}
+
+.main h1{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 4px solid;
+    color: #5e70f6;
+    width: 90%;
+}
+
+.main .btn1{
+    height: 55px;
+    width: 138px;
+    background-color: #5e70f6;
+    color: #f9f9f9;
+    outline: none;
+    border: 1px solid #5e70f6;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .btn1:hover{
+    background-color: #6170df;
+    transition: 0.5s;
+    color: #f9f9f9;
+}
+
+
+.main .btn2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: #5e70f6;
+    outline: none;
+    border: 1px solid #5e70f6;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .btn2:hover{
+    background-color: #5e70f6;
+    transition: 0.5s;
+    color: #f9f9f9;
+}
+
+.h1-paf{
+    color: #4b556b;
+}
+
+.paf{
+    color: #5e70f6;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.paf2{
+    color: #4b556b;
+}
+
+.acerca img{
+    -webkit-box-shadow: 6px 6px 9px 5px rgba(75,85,107,0.54); 
+box-shadow: 6px 6px 9px 5px rgba(75,85,107,0.54);
+}
+
+.acerca{
+    background-color: rgb(231, 236, 236);
+}
+
+span{
+    color:#5e70f6;
+    font-weight: bold;
+}
+
+.title{
+    color:#4b556b;
+}
+
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(138, 143, 153, 0.38); 
+    box-shadow: 0px 0px 10px 5px rgba(191, 194, 201, 0.38);
+}
+.card p{
+    color: gray;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: #4b556b;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.circle svg{
+    width: 50px;
+    height: 40px;
+}
+
+.card:hover .circle{
+    background-color: #4b556b;
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+.proyectos{
+    background-color: rgb(231, 236, 236);
+}
+
+.control ul li{
+    list-style: none;
+    background-color: #4b556b;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.control a{
+    list-style: none;
+    background-color: #4b556b;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.control .button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container h1{
+    color: #4b556b;
+}
+
+.item{
+    position: relative;
+    margin: 10px;
+}
+
+.item img:hover{
+    -webkit-box-shadow: 0px 1px 15px 4px rgba(0,0,0,0.37); 
+box-shadow: 0px 1px 15px 4px rgba(0,0,0,0.37);
+transition: 0.5s;
+}
+
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.contacto .btn3{
+    background-color: #5e70f6;
+    color: #f9f9f9;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.btn3:hover{
+    background: transparent;
+    border: 1px solid #5e70f6;
+    transition: 0.5s;
+    color: #5e70f6;
+}
+
